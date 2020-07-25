@@ -105,7 +105,7 @@ $email = $_SESSION["email"];
 
 									<h4 style="color: yellow;">
 										Monthly Rate: <?php echo $row[6] ?> TK<br>
-										Semi-Annual Rate: <?php echo $row[7] ?> TK <br>
+										Semi-Annial Rate: <?php echo $row[7] ?> TK <br>
 										Annual Rate: <?php echo $row[8] ?> TK <br>
 										Achievements: <?php echo $row[10] ?> <br>
 										Description: <?php echo $row[5] ?> <br>
@@ -208,9 +208,6 @@ $email = $_SESSION["email"];
 	<!-- Available Exercises Modal -->
 		<div id="myModal" class="modal fade" role="dialog">
 		  <div class="modal-dialog modal-lg">
-		  	<?php 
-		  	echo "<script> console.log('inside available exercise'); </script>";
-		  	?>
 
 		    <!-- Modal content-->
 		    <div id="modalContent" class="modal-content">
@@ -299,7 +296,7 @@ $email = $_SESSION["email"];
 		  <div class="modal-dialog modal-lg">
 		  	<?php
 						echo "<script>
-									console.log('inside selected exercise modal');
+									console.log('inside modal');
 								</script>";
 					?>
 		    <!-- Modal content-->
